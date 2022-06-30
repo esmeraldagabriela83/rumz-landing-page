@@ -150,6 +150,14 @@ body {
     margin-bottom: 1em;
   }
 
+  #section1 #section1-content form input{
+      color:#5959FF;
+    }
+
+  #section1 #section1-content form input:focus{
+      outline:none;
+    }
+
   form button {
     width: 152px;
     height: 55px;
@@ -220,6 +228,14 @@ body {
     border-radius: 10px;
     opacity: 1;
     margin-bottom: 1em;
+  }
+
+#section1 #section1-content form input{
+    color:#5959FF;
+  }
+
+#section1 #section1-content form input:focus{
+    outline:0;
   }
 
   form button {
@@ -444,14 +460,12 @@ body {
 }
 
 /*------------------------flip the blue svg----------------------------------------*/
-
 /*------------------------------------ https://www.w3schools.com/howto/howto_css_flip_image.asp  --------------------------------------------------------*/
-
 @media only screen and (min-width: 960px) {
-  #yellow-section3screen{
-    margin-left:370px;
+  #yellow-section3screen {
+    margin-left: 370px;
     width: 2729px;
-  height: 937px;
+    height: 937px;
     /* UI Properties */
     opacity: 1;
     background-repeat: no-repeat;
@@ -466,33 +480,28 @@ body {
     /* border:3px solid olive; */
   }
 
-#blue-section3screen{
-
-  width: 1607px;
-  height: 759px;
-  /* UI Properties */
-  opacity: 1;
-  background-repeat: no-repeat;
-  background-image: url(../images/blue-background.svg);
-  background-position: center;
-  background-size: contain;
-  /* transform: rotate(15deg); */
-position: absolute;
-bottom: 0;
-
-  border:3px solid Crimson;
-  margin-right: -300px;
+  #blue-section3screen {
+    width: 1607px;
+    height: 759px;
+    /* UI Properties */
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-image: url(../images/blue-background.svg);
+    background-position: center;
+    background-size: contain;
+    /* transform: rotate(15deg); */
+    position: absolute;
+    bottom: 0;
+    /* border: 3px solid Crimson; */
+    margin-right: -300px;
+  }
 }
-
-}
-
 
 /*-------------------section 3 background-----------------------------*/
 /*-------------------section 3 content-----------------------------*/
 @media only screen and (max-width: 959px) {
-
-  #section3screen{
-    display:none;
+  #section3screen {
+    display: none;
   }
 
   #section3mobile p.parahraph-section3:nth-of-type(1) {
@@ -558,35 +567,283 @@ bottom: 0;
 }
 
 @media only screen and (min-width: 960px) {
-
-  #section3mobile{
-    display:none;
+  #section3mobile {
+    display: none;
   }
 
-  #section3screen{
+  #section3screen {
     /* border:3px solid magenta; */
     width: 90%;
-    height:80vh;
+    height: 80vh;
     margin-top: 5em;
-    margin-bottom:5em;
+    margin-bottom: 5em;
     margin-left: 5%;
-      margin-right: 5%;
+    margin-right: 5%;
     position: relative;
-
-border:7px solid BlueViolet;
-
-display:flex;
-align-items: center;
-justify-content: space-around;
+    /* border: 7px solid BlueViolet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 
-#section3screen-article1{
-  margin-top:15em;
-    border:3px solid Chartreuse;
+  #section3screen-article1 {
+    margin-top: 15em;
+    /* border: 3px solid Chartreuse; */
+  }
+
+  #section3screen-article1 p:nth-of-type(1) {
+    width: 50%;
+    font-weight: bold;
+    font-size: 3rem;
+    /* margin-top: 3em; */
+    line-height: 50px;
+    text-align: left;
+  }
+
+  #section3screen-article1 p:nth-of-type(2) {
+    margin-top: 1.5em;
+    width: 60%;
+  }
+
+  #section3screen-article2 {
+    margin-top: 15em;
+    margin-right:-3em;
+    /* border: 3px solid Aquamarine; */
+  }
+
+  #section3-img {
+    margin-top: 15em;
+    /* border: 3px solid Brown; */
+    margin-left: -3em;
+    width: 661px;
+    height: 722px;
+    background-repeat: no-repeat;
+    background-image: url(../images/2372.png);
+    background-position: center;
+    background-size: contain;
+  }
+
+  #section3screen-article2 .center-text-icon {
+    /* border: 3px solid LightSlateGray; */
+    padding: 2.5em 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #section3screen-article2 .center-text-icon a {
+    color: white;
+    font-weight: bold;
+    margin-left: 3em;
+  }
+
+
+
+  #section3screen-article2 .icon img {
+    /* border:3px solid green; */
+    padding: 1em;
+    background-color: #5959FF;
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px #00000029;
+    position: relative;
+  }
+
+  #section3screen-article2 .center-text-icon .icon {
+    /* border:3px solid LightPink; */
+    position: relative;
+  }
+
+  /* #section3screen-article2 .center-text-icon .icon::before {
+    content:"";
+    position: absolute;
+    width:4em;
+    height:4em;
+    background-color: white;
+    border-radius: 50%;
+    top:-1.15em;
+    right:-1.15em;
+  }
+
+  #section3screen-article2 .center-text-icon .icon::after {
+    content:"";
+    position: absolute;
+    width:4em;
+    height:4em;
+    background-color: white;
+    border-radius: 50%;
+    bottom:-1.15em;
+  left:-1.15em;
+  } */
+
+  #section3screen-article2 .center-text-icon .circles{
+    /* border:3px solid OldLace; */
+  }
+
+  #section3screen-article2 .center-text-icon .circles .circle{
+    /* border:3px solid Wheat; */
+    width:3.5em;
+    height:3.5em;
+    background-color: white;
+    border-radius: 50%;
+  }
+
+    #section3screen-article2 .center-text-icon .circles .circle-top{
+      margin-bottom: -2.5em;
+      margin-left: 1em;
+    }
+
+    #section3screen-article2 .center-text-icon .circles .circle-bottom{
+      margin-top: -2.5em;
+    margin-left: -1em;
+    }
+
 }
 
-#section3screen-article1 p:nth-of-type(1) {
-width: 50%;
+/*-------------------section 3 content-----------------------------*/
+/*-------------------section 4 background-----------------------------*/
+
+@media only screen and (max-width: 959px) {
+
+#section4screen{
+  display:none;
+}
+
+  #section4 {
+    margin-top: 20em;
+    height: auto;
+    /* border:7px solid forestgreen; */
+  }
+
+  #mobile-blue-section4 {
+    /* margin-left: -1340px; */
+    width: 1729px;
+    height: 437px;
+    /* UI Properties */
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-image: url(../images/blue-background.svg);
+    background-position: center;
+    background-size: contain;
+    /* transform: rotate(15deg); */
+    margin-top: -6.5em;
+    margin-left: -10em;
+    position: absolute;
+    z-index: -1;
+    /* border:3px solid olive; */
+  }
+
+  #mobile-yellow-section4 {
+    /* margin-left: -1340px; */
+    width: 729px;
+    height: 237px;
+    /* UI Properties */
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-image: url(../images/yellow-background.svg);
+    background-position: center;
+    background-size: contain;
+    /* transform: rotate(-180deg); */
+    margin-top: 200px;
+    margin-left:45em;
+     transform: scaleX(-1);
+    position: absolute;
+    z-index: -1;
+    /* border:3px solid olive; */
+  }
+
+}
+
+@media only screen and (min-width: 960px) {
+  #section4 {
+  display: none;
+  }
+
+#section4screen{
+  /* border:3px solid green; */
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 25em;
+  height: auto;
+
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+#screen-section4{
+  /* border:3px solid SteelBlue; */
+  width: 729px;
+  height: 668px;
+ background-repeat: no-repeat;
+ background-image: url(../images/group-2642.svg);
+ background-position: center;
+ background-size: contain;
+margin: 3em 1em;
+
+/* padding-left: 5em; */
+ /* border:3px solid olive; */
+}
+
+#screen-section4-tel{
+  width: 583px;
+  height: 771px;
+   background-repeat: no-repeat;
+ background-image: url(../images/2385.png);
+ background-position: center;
+ background-size: contain;
+margin-top: -10em;
+}
+
+}
+
+/*-------------------section 4 background-----------------------------*/
+
+/*-------------------section 4 content-----------------------------*/
+@media only screen and (max-width: 959px) {
+
+  #section4 p:nth-of-type(1) {
+    text-align: left;
+    margin-left: calc(50% - 139px);
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 30px;
+    margin-top: 1.5em;
+  }
+
+  #section4 p:nth-of-type(2) {
+    text-align: left;
+    margin-left: calc(50% - 139px);
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 30px;
+  }
+
+  #section4 p:nth-of-type(3) {
+    text-align: left;
+    margin-left: calc(50% - 139px);
+    margin-top: 1.5em;
+    line-height: 30px;
+  }
+
+}
+
+@media only screen and (min-width: 960px) {
+
+#section4screen article{
+  /* border:3px solid yellow; */
+}
+
+#section4screen article p:nth-of-type(1) {
+  font-weight: bold;
+  font-size: 3rem;
+  /* margin-top: 3em; */
+  line-height: 50px;
+  text-align: left;
+  /* border:3px solid SeaGreen; */
+}
+
+#section4screen article p:nth-of-type(2) {
   font-weight: bold;
   font-size: 3rem;
   /* margin-top: 3em; */
@@ -594,38 +851,183 @@ width: 50%;
   text-align: left;
 }
 
-#section3screen-article1 p:nth-of-type(2) {
-  margin-top: 1.5em;
-  width: 63%;
+#section4screen article p:nth-of-type(3) {
+  margin-top: 3em;
+  text-align: left;
 }
 
-#section3screen-article2{
-  margin-top:15em;
-    border:3px solid Chocolate;
 }
 
-#section3-img{
-  margin-top:15em;
-    border:3px solid Brown;
-margin-left:-3em;
-    width: 661px;
-height: 722px;
-    background-repeat: no-repeat;
-  background-image: url(../images/2372.png);
+
+/*-------------------section 4 content-----------------------------*/
+
+
+
+/*-------------------section 5 background-----------------------------*/
+
+@media only screen and (max-width: 959px) {
+
+  #section5screen{
+    display:none;
+  }
+
+  #section5mobile{
+    /* border:5px solid tan; */
+    margin-top:20em;
+  }
+
+#mobile-section5{
+  /* margin-left: -1340px; */
+  width: 1729px;
+  height: 437px;
+  /* UI Properties */
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-image: url(../images/blue-background.svg);
   background-position: center;
-  background-size:contain;
+  background-size: contain;
+  /* transform: rotate(-180deg); */
+  margin-top: -100px;
+  margin-left:-40em;
+   /* transform: scaleX(-1); */
+  position: absolute;
+  z-index: -1;
+  /* border:3px solid olive; */
 }
 
 }
 
-/*-------------------section 3 content-----------------------------*/
-/*-------------------section 4 background-----------------------------*/
-#section4 {
-  height: auto;
-  background-color: forestgreen;
+
+@media only screen and (min-width: 960px) {
+
+#section5mobile{
+  display:none;
 }
 
-/*-------------------section 4 background-----------------------------*/
-/*-------------------section 4 content-----------------------------*/
-/*-------------------section 4 content-----------------------------*/
+#section5screen{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#screen-section5{
+  /* margin-left: -1340px; */
+  width: 2729px;
+  height: 789px;
+  /* UI Properties */
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-image: url(../images/blue-background.svg);
+  background-position: center;
+  background-size: contain;
+  /* transform: rotate(-180deg); */
+  margin-top: -200px;
+  margin-left:-60em;
+   /* transform: scaleX(-1); */
+  position: absolute;
+  z-index: -1;
+  /* border:3px solid olive; */
+}
+
+}
+
+/*-------------------section 5 background-----------------------------*/
+
+
+/*-------------------section 5 content-----------------------------*/
+
+@media only screen and (max-width: 959px) {
+
+    #section5mobile article{
+      /* border:3px solid cornflowerblue; */
+      margin-top: 1.5em;
+    }
+
+    #section5mobile form input{
+      margin-top: 1.5em;
+      background-color: #5959FF;
+      border: 3px solid white;
+      color:white;
+    }
+
+        #section5mobile form input:focus{
+          outline:none;
+        }
+
+    #section5mobile form button{
+      margin-top: 1.5em;
+      background-color: white;
+      /* border: 3px solid white; */
+      color:#5959FF;
+    }
+
+  #section5mobile p:nth-of-type(1) {
+    text-align: left;
+    margin-left: calc(50% - 139px);
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 30px;
+    margin-top: 1.5em;
+    /* border:3px solid pink; */
+  }
+
+  #section5mobile p:nth-of-type(2) {
+    text-align: left;
+    margin-left: calc(50% - 139px);
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 30px;
+  }
+
+}
+
+@media only screen and (min-width: 960px) {
+
+  #section5screen article p:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 3rem;
+    /* margin-top: 3em; */
+    line-height: 50px;
+    text-align: left;
+    /* border:3px solid SeaGreen; */
+    color:white;
+  }
+
+  #section5screen article p:nth-of-type(2) {
+    font-weight: bold;
+    font-size: 3rem;
+    /* margin-top: 3em; */
+    line-height: 50px;
+    text-align: left;
+    /* border:3px solid SeaGreen; */
+      color:white;
+  }
+
+  #section5screen form input{
+    margin-top: 1.5em;
+    background-color: #5959FF;
+    border: 3px solid white;
+    color:white;
+  }
+
+      #section5screen form input:focus{
+        outline:none;
+      }
+
+  #section5screen form button{
+    margin-top: 1.5em;
+    background-color: white;
+    /* border: 3px solid white; */
+    color:#5959FF;
+  }
+
+}
+
+/*-------------------section 5 content-----------------------------*/
+
+/*-----------------form------------------*/
+
+/*-----------------form------------------*/
+
+
 /**/
