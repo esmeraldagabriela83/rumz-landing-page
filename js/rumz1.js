@@ -14,31 +14,17 @@ console.log("emailUpper is : " , emailUpper);
 // emailUpper.style.border="3px dotted crimson";
 
 
+function checkInputsUpper(){
+  //get the value from the input
+const emailUpperValue = emailUpper.value.trim();
+console.log("emailUpperValue is : " , emailUpperValue);
+}
+
 formUpper.addEventListener("submit" , (event) =>{
 event.preventDefault();
 
 checkInputsUpper();
 
 })
-
-function checkInputsUpper(){
-
-  //get the value from the input
-const emailUpperValue = emailUpper.value.trim();
-console.log("emailUpperValue is : " , emailUpperValue);
-
-}
-
-//------------------------------------------------------------------------down for mobile
-
-//------------------------------------------------------------------------down for screen
-
-
-
-
-
-
-
-
 
 //
